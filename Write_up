@@ -1,9 +1,12 @@
 Fresh water is quickly becoming a more limited resource. As such, it is important to monitor and regulate water usage to ensure access to clean drinking water. In this Report I use feature engineering to create a model to predict fresh water levles in Lake Bilancino. 
 
-Notable Features:
-- Rainwater
-- Local Temperature
-- Flow rate out of the lake and into other reservoirs
+Feature Engineering Techniques:
+- Phase shifting
+- Averages
+- Datetime Resampling
+
+Statistics:
+- Spearmanr
 
 Models used are:
 
