@@ -47,7 +47,7 @@ As climate change impacts weather patterns, water may become increasingly in sho
 3. Flow rate out of the lake affects water levels in the lake
     - True.
 
-### 'Previous Cycle' was the most effective model based on RMSE scores
+### 'GLM' was the most effective model based on RMSE scores
 ### Most effective feature engineering:
     - 1 M resampling period
     - 3 M shift in rainfall and temperature
