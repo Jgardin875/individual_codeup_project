@@ -38,21 +38,26 @@ As climate change impacts weather patterns, water may become increasingly in sho
 3. Flow rate out of the lake affects water levels in the lake
 
 # Report Findings 
-1. Rainfall Mangona, S_Agata, and Le_Croci were the rainfalls that had the most effect on water level. There is about a three month delay between rainfalls and changes in water level
 
-2. Temperature had an effect on water level. There is about a three month delay between temperature changes and changes in water level.
+### Initial Testing and Hypothesis
+1. Rain affects water levels in the lake
+    - True. Specifically Le_Croci, S_Agata, and Mangona
+2. Temperature affects water levels in the lake
+    - True.
+3. Flow rate out of the lake affects water levels in the lake
+    - True.
 
-3. Flow rate did affect water level. No significant delay in flow rate and water level.
-
-
-# ------------- was the most effective model. 
-# ------------- was the most effective feature engineering. 
+### 'Previous Cycle' was the most effective model based on RMSE scores
+### Most effective feature engineering:
+    - 1 M resampling period
+    - 3 M shift in rainfall and temperature
+    - taking avg of three most strongly correlated rainfalls: Le_Croci, S_Agata, and Mangona
 
 
 
 #  Recommendations and Future Work
 
-- combine model with models that predict changes in temperature and rainfall to get a more accurate
+- combine model with models that predict changes in temperature and rainfall to get a more accurate predictions
 
 - regulate water usage to minimize use of limited water resources
 
