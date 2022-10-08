@@ -3,15 +3,17 @@
 
 # Data Dictionary
 
-Rainfall_S_Piero    - rainfall in mm
-Rainfall_Mangona    - rainfall in mm
-Rainfall_S_Agata    - rainfall in mm
-Rainfall_Cavallina  - rainfall in mm 
-Rainfall_Le_Croci   - rainfall in mm
-Temperature_Le_Croci - temperature in 'C
-Lake_Level - level in meters (m)
-Flow_Rate - flow rate in cubic meters per second (mc/s)
-avg_rain - avg of Mangona, S_Agata, Le_Croci rainfall
+| Column           |   Description   |
+|:----------------:|:---------------:|
+|Rainfall_S_Piero  | rainfall in mm|
+|Rainfall_Mangona  | rainfall in mm|
+|Rainfall_S_Agata  | rainfall in mm|
+|Rainfall_Cavallina   | rainfall in mm |
+|Rainfall_Le_Croci    | rainfall in mm|
+|Temperature_Le_Croci | temperature in 'C|
+|Lake_Level | level in meters (m)|
+|Flow_Rate | flow rate in cubic meters per second (mc/s)|
+|avg_rain | avg of Mangona, S_Agata, Le_Croci rainfall|
 
 
 # Steps to reproduce
@@ -22,6 +24,9 @@ https://www.kaggle.com/competitions/acea-water-prediction
 Clone my repo (including the acquire_p.py)
 
 Libraries used are pandas, matplotlib, seaborn, numpy, sklearn, datetime, math, statsmodels, and scipy.stats.
+
+
+Note: If you don't have a kaggle account you can import 'Lake_Bilancino.csv' saved in this folder for your convenience.
 
 
 # Project Goals
